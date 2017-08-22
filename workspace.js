@@ -532,7 +532,7 @@ cpdefine("inline:com-chilipeppr-workspace-k1", ["chilipeppr_ready"], function() 
             // com-chilipeppr-ws-autolevel
             chilipeppr.load(
                 "#com-chilipeppr-ws-autolevel",
-                "http://raw.githubusercontent.com/blwn23/widget-autolevel/master/auto-generated-widget.html",
+                "http://raw.githubusercontent.com/blwn23/widget-autolevel-g2/master/auto-generated-widget.html",
                 function() {
                     require(["inline:com-chilipeppr-widget-autolevel"], function(autolevel) {
                         autolevel.init();
@@ -552,6 +552,8 @@ cpdefine("inline:com-chilipeppr-workspace-k1", ["chilipeppr_ready"], function() 
                                 autolevel.onUndisplay();
                             }
                             $(window).trigger('resize');
+                            
+                        //console.log()
 
                         });
                     });
