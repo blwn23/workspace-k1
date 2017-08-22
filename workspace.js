@@ -529,12 +529,12 @@ cpdefine("inline:com-chilipeppr-workspace-k1", ["chilipeppr_ready"], function() 
             //End Zipwhip Receive Text
             
             // Auto-Leveller
-            // com-chilipeppr-ws-autolevel-g2 
+            // com-chilipeppr-ws-autolevel
             chilipeppr.load(
                 "#com-chilipeppr-ws-autolevel",
                 "http://raw.githubusercontent.com/blwn23/widget-autolevel/master/auto-generated-widget.html",
                 function() {
-                    require(["inline:com-chilipeppr-widget-autolevel-g2"], function(autolevel) {
+                    require(["inline:com-chilipeppr-widget-autolevel"], function(autolevel) {
                         autolevel.init();
                         // setup toggle button
                         var alBtn = $('#com-chilipeppr-ws-menu .autolevel-button');
